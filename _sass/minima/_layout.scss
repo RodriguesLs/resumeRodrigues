@@ -1,11 +1,21 @@
-
 .menu {
   border-right: 1px dotted #ccc;
   grid-row: 1 / -1;
 }
 
+.scroll-main {
+  overflow-y: scroll;
+  height: 18em;
+}
+
+.h2-header {
+  padding: 1em 1em 0 1em;
+  margin: 0;
+}
+
 .h1-header {
-  padding: 1em;
+  padding: 0 1em 1em 1.5em;
+  margin: 0;
 }
 
 .p-header {

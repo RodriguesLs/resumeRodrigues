@@ -25,6 +25,7 @@ github_username:  RodriguesLs
 # Build settings
 markdown: kramdown
 permalink: /:title
+# paginate: 3
 theme: minima
 plugins:
   - jekyll-feed
