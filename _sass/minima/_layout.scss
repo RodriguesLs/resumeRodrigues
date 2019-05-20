@@ -23,11 +23,17 @@
   margin: 1.5em;
 }
 
-.img-header {
-  margin: 1.8em;
-  border-radius: 100px;
+.img-div-header {
+  overflow: hidden;
+  padding: 0 auto;
+  margin: 0 auto;
+  height: 15em;
+  width: 15em;
+  border-radius: 14em;
+  background-image: url('../../assets/use.jpg');
+  background-position: center;
+  background-size: 17em;
 }
-
 /**
  * Site header
  */
