@@ -1,38 +1,68 @@
-.menu {
-  border-right: 1px dotted #ccc;
-  grid-row: 1 / -1;
+.ul-menu{
+  list-style-type: none;
+  margin: 2em auto 5em;
+  // border: 1px solid red;
+  text-align: right;
+  color: #42f495;
 }
 
-.scroll-main {
-  overflow-y: scroll;
-  height: 18em;
+.ul-menu li{
+  display: inline;
+  padding: 0.3em 2em;
+  margin: 0 1em;
+  border: 1px solid white;
+  border-radius: 5em;
 }
 
-.h2-header {
-  padding: 1em 1em 0 1em;
-  margin: 0;
+.presentation {
+  grid-column: 1 / 3;
+  grid-row: 3 / 3;
+  margin: 3em 0 0 5em;
+  color: #42f495;
+  // border: 1px solid red;
 }
 
-.h1-header {
-  padding: 0 1em 1em 1.5em;
-  margin: 0;
+.name {
+  padding: 0 .1em .5em 2.8em;
+  display: inline-block;
+  grid-column: 2;
+  grid-row: 3 / 3;
+  color: white;
+  font-size: 2em;
+  margin-bottom: 0;
 }
 
-.p-header {
-  font-size: 12px;
-  margin: 1.5em;
+.baloon {
+  // border: 1px solid red;
+  padding: .3em 0 0 .7em;
+  grid-row: 2 / 2;
+  grid-column: 2 /2;
+  background-color: #42f495;
+  border-radius: 15px 15px 0 15px;
+  
 }
-
+.main-div {
+  border: .8em solid rgba(27, 29, 33, 0.3);
+  border-radius: 14em;
+  display: grid;
+  grid-template-columns: 15em 15em 14em;
+  grid-template-rows: 1em 2.3em 10.7em;
+  padding: 0;
+  width: 44em;
+}
 .img-div-header {
+  grid-column: 3 / -1;
+  grid-row: 1 / 3;
   overflow: hidden;
-  padding: 0 auto;
-  margin: 0 auto;
-  height: 15em;
-  width: 15em;
+  padding: 0;
+  margin: 0;
+  height: 12em;
+  width: 12em;
   border-radius: 14em;
   background-image: url('../../assets/use.jpg');
   background-position: center;
   background-size: 17em;
+  border: 1em solid #1b1d21;
 }
 /**
  * Site header
@@ -41,10 +71,6 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-
-  // Positioning context for the mobile navigation icon
-  // position: relative;
-  grid-row: 1 / -1;
 }
 
 .site-title {
