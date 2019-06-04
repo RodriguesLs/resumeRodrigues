@@ -5,6 +5,7 @@ baseurl: ""
 url: ""
 twitter_username: frodrigues95
 github_username:  RodriguesLs
+linkedin_username: Rodrigues
 
 # Build settings
 markdown: kramdown
