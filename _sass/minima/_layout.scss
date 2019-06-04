@@ -1,14 +1,11 @@
 .menu{
-  margin: 0;
-  padding: 0;
-  width: auto;
+  width: 100%;
 }
 
 .ul-menu{
   list-style-type: none;
-  margin: 2em auto;
-  border: 1px solid red;
-  text-align: right;
+  margin: 1em auto;
+  text-align: center;
   color: #42f495;
 }
 
@@ -54,7 +51,7 @@
   grid-template-columns: 15em 15em 14em;
   grid-template-rows: 1em 2.3em 10.7em;
   padding: 0;
-  margin: 13em auto 0;
+  margin: 14em auto 0;
   width: 44em;
 }
 .img-div-header {
