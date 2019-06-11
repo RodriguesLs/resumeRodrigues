@@ -1,7 +1,15 @@
-.menu{
+.exp-div{
+  color: white;
+}
+.exp-div p{
+  margin-left: 4em;
+}
+.exp-div li{
+  margin: 2em;
+}
+.menu-main{
   width: 100%;
 }
-
 .color {
   color:#42f495;
   margin-right: .7em;
@@ -21,10 +29,9 @@
 
 .profession{
   color:#42f495;
-  // text-transform: uppercase;
   font-family: 'Alef';
-  margin-bottom: 3em;
 }
+
 .presentation {
   color: white;
 }
@@ -50,24 +57,42 @@
 
 .main-div {
   margin: 7em auto;
-  padding: 0;
-  width: 100%;
-  float: left;
+  width: 60%;
+}
+
+.main-div h1{
+  color: #42f495;
+}
+
+.exp-div p{
+  color: white;
+}
+
+.ul-menu a{
+  color: white;
+}
+.ul-menu a:hover{
+  color: #42f495;
+  text-decoration: none;
 }
 
 .text-div{
-  margin-left: 10em;
+  margin: 2em 22% 0 0;
+  width: 46%;
   float: left;
 }
 
 .img-div{
+  float: left;
   border: 1em solid rgba(66,244,149, .1);
   border-radius: 10em;
-  float: left;
-  margin-left: 15em;
+}
+.clear{
+  clear: both;
 }
 
 .img-div-header {
+  width: 30%;
   overflow: hidden;
   padding: 0;
   margin: 0;
@@ -258,9 +283,8 @@
  */
 .page-content {
   padding: $spacing-unit 0;
-  flex: 1;
-  grid-column: 2 / -1;
-  grid-row: 1 / 10;
+  grid-column: 2 / 4;
+  grid-row: 2 / 2;
   // border: 1px solid red;
 }
 
