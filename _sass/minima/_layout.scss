@@ -106,7 +106,7 @@
 .img-div{
   float: left;
   border: 1em solid rgba(66,244,149, .1);
-  border-radius: 10em;
+  border-radius: 7em;
 }
 .clear{
   clear: both;
@@ -117,10 +117,9 @@
   padding: 0;
   margin: 0;
   height: 12em;
-  width: 12em;
-  border-radius: 14em;
+  width: 10em;
   background-image: url('../../assets/use.jpg');
-  background-position: center;
+  background-position: 11em -2em;
   background-size: 12em;
   border: 1em solid #1b1d21;
 }
